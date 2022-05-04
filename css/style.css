@@ -11,18 +11,17 @@ Dark green: #28b485
   margin: 0;
   box-sizing: border-box;
 }
-/* 
+
 html {
-  font-size: 16px;
-} */
+  font-size: 62.5%;
+}
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 62.5%;
   line-height: 1.7;
   color: #777;
-  padding: 30px;
+  padding: 3rem;
 }
 
 .header {
@@ -59,11 +58,11 @@ body {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 1.6rem;
+  margin-bottom: 3rem;
 }
 .heading-primary-main {
   display: block;
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 400;
   letter-spacing: 2rem;
   animation-name: moveInLeft;
@@ -76,7 +75,7 @@ body {
 }
 .heading-primary-sub {
   display: block;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1rem;
   animation-name: moveInRight;
@@ -87,11 +86,11 @@ body {
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateX(-15rem);
   }
 
   80% {
-    transform: translateX(10px);
+    transform: translateX(1rem);
   }
 
   100% {
@@ -103,11 +102,11 @@ body {
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(150px);
+    transform: translateX(1.5rem);
   }
 
   80% {
-    transform: translateX(-10px);
+    transform: translateX(-1rem);
   }
 
   100% {
@@ -119,7 +118,7 @@ body {
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(10rem);
   }
 
   100% {
@@ -132,11 +131,11 @@ body {
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.6rem;
   display: inline-block;
   background-color: #fff;
-  padding: 0.8rem 2rem;
-  border-radius: 100rem;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
 }
