@@ -1,0 +1,22 @@
+{
+  "name": "natours_project",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViacheslavVolyanuk/natours-website.git"
+  },
+  "author": "Slava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViacheslavVolyanuk/natours-website/issues"
+  },
+  "homepage": "https://github.com/ViacheslavVolyanuk/natours-website#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
