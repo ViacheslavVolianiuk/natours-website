@@ -3,22 +3,35 @@
   &__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
-    border-radius: 3px;
+    border-radius: 2px;
     top: 0;
     left: 0;
     position: absolute;
+    z-index: 10;
+    transition: all 0.2s;
+    outline-offset: 2rem;
 
     &--p1 {
       left: 0rem;
       top: -2rem;
     }
     &--p2 {
-      left: 25rem;
+      left: 45%;
       top: 2rem;
     }
     &--p3 {
-      left: 3rem;
+      left: 10%;
       top: 15rem;
+    }
+
+    &:hover {
+      outline: 1.5rem solid $color-primary;
+      transform: scale(1.1) translateY(-0.5rem);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+      z-index: 20;
+    }
+    &:hover &__photo:not(:hover) {
+      transform: scale(0.9);
     }
   }
 }
