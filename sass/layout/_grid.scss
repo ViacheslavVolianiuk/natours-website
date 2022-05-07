@@ -1,9 +1,8 @@
 .row {
   max-width: $grid-width;
-  margin: 0 10rem;
+  max-height: 35rem;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
   column-gap: $gutter-horizontal;
-  justify-items: right;
 }
