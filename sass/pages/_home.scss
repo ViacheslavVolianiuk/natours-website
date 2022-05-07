@@ -1,6 +1,7 @@
 .section-about {
   background-color: $color-grey-light-1;
-  padding: 25rem 0;
+  padding-top: 20rem;
+  padding-bottom: 25rem;
   margin-top: -20vh;
 }
 
@@ -15,5 +16,12 @@
   background-size: cover;
   background-position: top;
   margin-top: -14rem;
-  clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%);
+  clip-path: polygon(0 17%, 100% 0, 100% 83%, 0 100%); //transform: skew()
+}
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding-top: 20rem;
+  padding-bottom: 25rem;
+  margin-top: -20vh;
 }
