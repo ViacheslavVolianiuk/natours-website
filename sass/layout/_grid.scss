@@ -1,5 +1,6 @@
 .row {
-  margin: 10rem;
+  max-width: $grid-width;
+  margin: 0 10rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
