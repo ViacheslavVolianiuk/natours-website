@@ -17,7 +17,8 @@
     cursor: pointer;
   }
 
-  &--green {
+  &--green:link,
+  &--green:visited {
     background-color: $color-primary;
     color: $color-white;
   }
