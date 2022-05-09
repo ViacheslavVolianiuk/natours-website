@@ -87,4 +87,7 @@
   .form__radio-button {
     margin-bottom: 5rem;
   }
+  .story:not(:last-child) {
+    margin-bottom: 5rem;
+  }
 }

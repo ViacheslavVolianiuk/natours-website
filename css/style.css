@@ -832,4 +832,6 @@ body {
     padding-left: 4.5rem;
     font-size: 0.7rem; }
   .form__radio-button {
+    margin-bottom: 5rem; }
+  .story:not(:last-child) {
     margin-bottom: 5rem; } }
