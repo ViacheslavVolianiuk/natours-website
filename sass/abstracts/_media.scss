@@ -65,6 +65,9 @@
   .section-features {
     margin-bottom: -20rem;
   }
+  .compositionn__photo {
+    width: 70%;
+  }
 
   .row-4-col {
     grid-template-columns: repeat(2, 1fr);
@@ -89,6 +92,16 @@
   }
   .story:not(:last-child) {
     margin-bottom: 5rem;
+  }
+}
+@media (max-width: 25em) {
+  //400px
+  .compositionn__photo {
+    width: 85%;
+  }
+  .compositionn {
+    transform: translateY(50%);
+    top: 10rem;
   }
 }
 
