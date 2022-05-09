@@ -1,4 +1,4 @@
-@media (max-width: 84.25em) {
+@media only screen and (max-width: 84.25em) {
   //1348px
   html {
     font-size: 55%;
@@ -16,7 +16,7 @@
     padding: 1rem 2rem;
   }
 }
-@media (max-width: 62.5em) {
+@media only screen and (max-width: 62.5em) {
   //1000px
   html {
     font-size: 47%;
@@ -32,7 +32,7 @@
     column-gap: 2rem;
   }
 }
-@media (max-width: 50em) {
+@media only screen and (max-width: 50em) {
   //800px
   html {
     font-size: 40%;
@@ -44,13 +44,13 @@
     padding-left: 4.5rem;
   }
 }
-@media (max-width: 40em) {
+@media only screen and (max-width: 40em) {
   //640
   html {
     font-size: 30%;
   }
 }
-@media (max-width: 31.5em) {
+@media only screen and (max-width: 31.5em) {
   //500
 
   .header {
@@ -94,7 +94,7 @@
     margin-bottom: 5rem;
   }
 }
-@media (max-width: 25em) {
+@media only screen and (max-width: 25em) {
   //400px
   .compositionn__photo {
     width: 85%;
@@ -105,7 +105,7 @@
   }
 }
 
-@media (max-width: 21.25em) {
+@media only screen and (max-width: 21.25em) {
   html {
     font-size: 23%;
   }

@@ -465,6 +465,9 @@ body {
   @media (max-width: 56.25em) {
     body {
       padding: 0; } }
+  body ::selection {
+    background-color: #55c57a;
+    color: #fff; }
 
 @keyframes moveInLeft {
   0% {
@@ -1222,7 +1225,7 @@ body {
     width: 50%;
     padding: 3rem 6rem; }
 
-@media (max-width: 84.25em) {
+@media only screen and (max-width: 84.25em) {
   html {
     font-size: 55%; }
   .row-3-col {
@@ -1234,7 +1237,7 @@ body {
   .book__form {
     padding: 1rem 2rem; } }
 
-@media (max-width: 62.5em) {
+@media only screen and (max-width: 62.5em) {
   html {
     font-size: 47%; }
   body {
@@ -1245,7 +1248,7 @@ body {
     margin: 0 2rem;
     column-gap: 2rem; } }
 
-@media (max-width: 50em) {
+@media only screen and (max-width: 50em) {
   html {
     font-size: 40%; }
   .book {
@@ -1253,11 +1256,11 @@ body {
   .form__radio-label {
     padding-left: 4.5rem; } }
 
-@media (max-width: 40em) {
+@media only screen and (max-width: 40em) {
   html {
     font-size: 30%; } }
 
-@media (max-width: 31.5em) {
+@media only screen and (max-width: 31.5em) {
   .header {
     margin-bottom: 5rem; }
   .u-margin-top-big {
@@ -1287,13 +1290,13 @@ body {
   .story:not(:last-child) {
     margin-bottom: 5rem; } }
 
-@media (max-width: 25em) {
+@media only screen and (max-width: 25em) {
   .compositionn__photo {
     width: 85%; }
   .compositionn {
     transform: translateY(50%);
     top: 10rem; } }
 
-@media (max-width: 21.25em) {
+@media only screen and (max-width: 21.25em) {
   html {
     font-size: 23%; } }
