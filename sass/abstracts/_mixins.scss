@@ -12,3 +12,33 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+//Media query manager
+@mixin respond-phone {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+
+@mixin respond($brakpoint) {
+  @if $brakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if $brakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $brakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $brakpoint == bid-desktop {
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
+}

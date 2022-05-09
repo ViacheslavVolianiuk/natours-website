@@ -6,9 +6,19 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 3rem; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
 
 @keyframes moveInLeft {
   0% {
@@ -42,8 +52,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
-  padding: 3rem; }
+  color: #777; }
 
 .heading-primary {
   color: #fff;
@@ -62,6 +71,10 @@ body {
     animation-delay: 3s;
     animation-iteration-count:3;
     */ }
+    @media (max-width: 37.5em) {
+      .heading-primary--main {
+        letter-spacing: 1rem;
+        font-size: 5rem; } }
   .heading-primary--sub {
     display: block;
     font-size: 2rem;
@@ -70,6 +83,10 @@ body {
     animation-name: moveInRight;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary--sub {
+        letter-spacing: 0.5rem;
+        font-size: 5rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -81,6 +98,12 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   transition: all 0.2s; }
+  @media (max-width: 56.25em) {
+    .heading-secondary {
+      font-size: 3rem; } }
+  @media (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 2.5rem; } }
   .heading-secondary:hover {
     transform: skewY(3deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -121,7 +144,8 @@ body {
   border: none;
   cursor: pointer; }
 
-.btn--green:link, .btn--green:visited {
+.btn--green {
+  margin-top: 1.5rem;
   background-color: #55c57a;
   color: #fff; }
 
@@ -527,7 +551,7 @@ body {
 .row-2-col {
   max-width: 114rem;
   max-height: 35rem;
-  margin: 0 auto;
+  margin: 0 10rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 6rem; }
@@ -745,3 +769,60 @@ body {
   .book__form {
     width: 50%;
     padding: 3rem 6rem; }
+
+@media (max-width: 84.25em) {
+  html {
+    font-size: 55%; }
+  .row-3-col {
+    margin: 0 7rem; }
+  .card-details {
+    padding: 2rem; }
+  .form__group {
+    margin-bottom: 1rem; }
+  .book__form {
+    padding: 1rem 2rem; } }
+
+@media (max-width: 62.5em) {
+  html {
+    font-size: 47%; }
+  body {
+    margin: 0; }
+  .composition__photo {
+    width: 75%; }
+  .row-3-col {
+    margin: 0 2rem;
+    column-gap: 2rem; } }
+
+@media (max-width: 50em) {
+  html {
+    font-size: 40%; }
+  .book {
+    margin: 0 7rem; }
+  .form__radio-label {
+    padding-left: 4.5rem; } }
+
+@media (max-width: 40em) {
+  html {
+    font-size: 30%; } }
+
+@media (max-width: 31.5em) {
+  .section-about {
+    margin-bottom: -20rem; }
+  .section-features {
+    margin-bottom: -20rem; }
+  .row-4-col {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10rem; }
+  .row-3-col {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 20rem;
+    padding-bottom: 1rem; }
+  .section-stories {
+    margin-top: 120rem; }
+  .form__radio-label {
+    padding-left: 4.5rem;
+    font-size: 0.7rem; }
+  .form__radio-button {
+    margin-bottom: 5rem; } }

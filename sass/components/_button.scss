@@ -17,11 +17,12 @@
     cursor: pointer;
   }
 
-  &--green:link,
-  &--green:visited {
+  &--green {
+    margin-top: 1.5rem;
     background-color: $color-primary;
     color: $color-white;
   }
+
   &:hover {
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
