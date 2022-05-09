@@ -659,6 +659,7 @@ body {
   left: 0;
   z-index: 1500;
   opacity: 0;
+  visibility: hidden;
   transition: all 0.8s ease-out; }
 
 .navigation__list {
@@ -698,6 +699,7 @@ body {
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
+  visibility: visible;
   width: 100%; }
 
 .navigation__icon {
